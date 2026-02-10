@@ -40,25 +40,32 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand voter's priorities, concerns, and expectations from our party and its leader one month before the federal election. The findings will help identify which policy areas, leadership qualities, and campaign messages are most important to maintain voter support and persuade undecided voters. This information will guide final campaign strategy and communications.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population - Eligible Canadian Voters over age 18 years and older who are eligible to vote in the upcoming election
+Sampling Frame - Election Canada published voters list with party's internal voter contact databse
+Sampling units - Individual Voters
+Observation units - Each Individual Canadian Voter who participated in Survey
+
+Overall sampling strategy - I choose, A stratified random sampling approach to ensure representation across key demographics such as province/territiry, age, gender, language, and residence areas (urban vs rural).
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+Mutiple Choice Question #1-4
+Open Ended Question #5
+1. How faourable is your opinion about our Party? 
+2. Which of the following issues are most important to you when deciding to vote? 
+3. How confident are you that our party can effectively address the issues that matter most to you?
+4. How would you rate our party leader’s performance so far in the campaign?
+5. What could our party do to better earn or maintain your support?
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -71,7 +78,20 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - Cross-sectional stratified two-phase design
+2. Sample size - The total sample size for the SGVP is 80,000 individuals (60,000 regular sample, 20,000 oversample).
+3. Target population - Persons aged 15 years and over living in private households in Canada, excluding residents of the Yukon, Northwest Territories and Nunavut and full time residents of institutions
+4. Sampling frame - household and person
+5. Survey mode(s) - Online questionnaire, Telephone and In-person Interviews
+6. Timeline
+7. Response rate - The overall response rate was 40.9% (42.2% for the regular sample and 37.1% for the oversample).
+8. Weights - The number of persons represented by a given person in the sample is usually known as the weight or weighting factor.  In a simple random sample of 2% of a population size of 1000, each person in the sample represents 50 persons in the population
+9. Data processing - Used Microdata File(PUMF)
+10. Cleaning, imputation, etc - All imputations were made using donor imputation. This method uses donor records selected through a score function to impute missing values.The donor with the highest score filled in the missing information. If multiple donors had the highest score, one was randomly selected. Mean imputation was used when donor imputation could not be used.
+11. Sources of error - Coverage error, response error and processing error
+12. Limitations, known biases, etc - Non-response bias
+13. Link to documentation and any additional sources used - https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
 ```
 
 ## Rubric
